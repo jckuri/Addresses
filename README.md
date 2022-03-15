@@ -22,6 +22,6 @@ Search the address within the allowed zip codes.
 Only addresses within the allowed zip codes are saved.
 The other addresses are discarded.
 
-Click the address to save it.
+Click the recommended addresses to save them.
 
 Once saved, you can delete the address with the Backspace key.
