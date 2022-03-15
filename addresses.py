@@ -8,8 +8,8 @@ class AddressWindow:
   self.frame.title("Addresses")
   self.center_window()
   
-  #self.input = tk.Text(self.frame, height = 5, width = 20)
-  #self.input = tk.Entry(self.frame)
+  self.label = tk.Label(self.frame, text = "Where are you located?\nSo we know where to drop off the stuff")
+  self.label.pack()
   
   sv = tk.StringVar()
   sv.trace("w", lambda name, index, mode, sv = sv: self.entry_modified(sv))
@@ -23,20 +23,9 @@ class AddressWindow:
   self.list.pack()
   self.list.bind('<<ListboxSelect>>', self.on_select)
   
-  #self.button = tk.Button(self.frame, text = "Print", command = self.print_input)
-  #self.button.pack()
-  
-  self.label = tk.Label(self.frame, text = "")
-  self.label.pack()
   self.frame.mainloop()
 
-  
- #def print_input(self):
-  ##text = self.input.get(1.0, "end-1c")
-  #text = self.input.get()
-  #self.label.config(text = "Provided Input: " + text)
-
-  
+ 
  def center_window(self):
   self.frame.resizable(False, False)
   window_height = 500
