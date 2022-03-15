@@ -22,4 +22,4 @@ The other addresses are discarded.
 
 Click the address to save it.
 
-Once saved, you can delete the address with Backspace.
+Once saved, you can delete the address with the Backspace key.
