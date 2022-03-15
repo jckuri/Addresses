@@ -73,7 +73,9 @@ class GoogleAPI:
   return response.json()
 
 
-LIST_WIDTH = 50
+LIST_WIDTH = 100
+window_width = 700
+window_height = 350
 
 class AddressWindow:
 
@@ -122,8 +124,6 @@ class AddressWindow:
   
  def center_window(self):
   self.frame.resizable(False, False)
-  window_width = 400
-  window_height = 400
   screen_width = self.frame.winfo_screenwidth()
   screen_height = self.frame.winfo_screenheight()
   x_cordinate = int((screen_width - window_width) / 2)
