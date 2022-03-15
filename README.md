@@ -1,7 +1,23 @@
 # Addresses
 
+## Installation
+
 ```
 conda create --name Addresses python=3.8
 conda activate Addresses
-pip install -U googlemaps
 ```
+
+You should create a local file called `api-key.txt` containing your API key to 
+the Google Maps API.
+
+## Usage
+
+```
+python addresses.py
+```
+
+Search the address within the allowed zip codes.
+
+Click the address to save it.
+
+Once saved, you can delete the address with Backspace.
