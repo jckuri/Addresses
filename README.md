@@ -8,7 +8,7 @@ conda activate Addresses
 ```
 
 You should create a local file called `api-key.txt` containing your API key to 
-the Google Maps API. The `api-key.txt` is in the `.gitignore` list.
+the Google Maps API. The file `api-key.txt` is in the `.gitignore` list.
 
 ## Usage
 
