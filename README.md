@@ -16,6 +16,8 @@ the Google Maps API.
 python addresses.py
 ```
 
+![images/demo.png](images/demo.png)
+
 Search the address within the allowed zip codes.
 Only addresses within the allowed zip codes are saved.
 The other addresses are discarded.
