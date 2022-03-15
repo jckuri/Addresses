@@ -1,4 +1,5 @@
 import tkinter as tk
+import requests
 
 class AddressWindow:
 
@@ -8,7 +9,7 @@ class AddressWindow:
   self.frame.title("Addresses")
   self.center_window()
   
-  self.label = tk.Label(self.frame, text = "Where are you located?\nSo we know where to drop off the stuff")
+  self.label = tk.Label(self.frame, text = "Where are you located?\nSo, we know where to drop off the stuff")
   self.label.pack()
   
   sv = tk.StringVar()
@@ -28,8 +29,8 @@ class AddressWindow:
  
  def center_window(self):
   self.frame.resizable(False, False)
-  window_height = 500
-  window_width = 900
+  window_width = 500
+  window_height = 300
   screen_width = self.frame.winfo_screenwidth()
   screen_height = self.frame.winfo_screenheight()
   x_cordinate = int((screen_width - window_width) / 2)
