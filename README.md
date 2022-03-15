@@ -17,7 +17,8 @@ python addresses.py
 ```
 
 Search the address within the allowed zip codes.
-Only address within the allowed zip codes are saved.
+Only addresses within the allowed zip codes are saved.
+The other addresses are discarded.
 
 Click the address to save it.
 
